@@ -20,9 +20,10 @@ Repositori ini mencakup proyek analitik data yang saya kerjakan dengan menggunak
 - Python 3.11.8 
 
 ## Pemasangan
-- Unduh repositori ini ke komputer Anda dengan mendawnload nya di:
-https://drive.google.com/file/d/1nGkdqg_pNCBpN97lzk0FM2-FUJwFBTli/view?usp=drive_link
-
+- Unduh repositori ini ke komputer Anda dengan menggunakan perintah ini
+```bash
+  git clone https://link-to-project
+```
 - Pastikan lingkungan Python Anda sudah terkonfigurasi dengan baik dan semua pustaka yang dibutuhkan tersedia. Untuk menginstal pustaka tersebut, gunakan perintah di bawah ini:
         pip install streamlit
         pip install -r dashboard/requirements.txt
@@ -33,3 +34,4 @@ Buka folder proyek (Lokal):
     cd dicoding/dashboard/
     streamlit run main.py
 ```
+atau dengan masuk ke website berikut https://7jkugvbfyqsauhnwzsnrbx.streamlit.app/
