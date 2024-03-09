@@ -11,12 +11,12 @@ strlit.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-df_all = pds.read_csv("/Dashboard/all_data.csv")
+df_all = pds.read_csv("./Dashboard/all_data.csv")
 df_all.sort_values(by="order_approved_at", inplace=True)
 df_all.reset_index(inplace=True)
 
 # Geolocation Dataset
-geolocation = pds.read_csv('/Dashboard/geolocation.csv')
+geolocation = pds.read_csv('./Dashboard/geolocation.csv')
 data = geolocation.drop_duplicates(subset='customer_unique_id')
 
 for i in datetime_cols:
