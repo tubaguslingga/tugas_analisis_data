@@ -22,7 +22,7 @@ Repositori ini mencakup proyek analitik data yang saya kerjakan dengan menggunak
 ## Pemasangan
 - Unduh repositori ini ke komputer Anda dengan menggunakan perintah ini
 ```bash
-  git clone [https://link-to-project](https://github.com/tubaguslingga/tugas_analisis_data.git)
+  git clone https://github.com/tubaguslingga/tugas_analisis_data.git
 ```
 - Pastikan lingkungan Python Anda sudah terkonfigurasi dengan baik dan semua pustaka yang dibutuhkan tersedia. Untuk menginstal pustaka tersebut, gunakan perintah di bawah ini:
         pip install streamlit
